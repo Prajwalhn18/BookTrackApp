@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.form-container {
+    margin-top: 2rem;
+}
+
+form {
+    width: 20vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+input {
+    height: 200px;
+    width: 250px;
+    font-size: 0.8rem;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+#add-book-button {
+    color: black;
+    background-color: white;
+    font-size: 1rem;
+    width: 100px;
+    border-radius: 10px;
+}
+
+#add-book-button:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+#books {
+    background-color: white;
+    padding: 20px 30px;
+    margin-top: 2rem;
+    width: 60vw;
+    height: 90vh;
+}
+
+.book {
+    background-color: #c5e1e6;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+}
+
+.book span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
